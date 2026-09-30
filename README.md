@@ -20,13 +20,15 @@ Search `index.html` for `EDIT ME` — each spot is marked with a comment.
 
 | # | What | Where |
 |---|------|-------|
-| 1 | **Your email address** — replace `YOUR-EMAIL@example.com` | `index.html`, the `<form ... data-email="…">` tag |
-| 2 | **Prices** — all three packages are placeholder numbers | `index.html`, the Rates section |
-| 3 | **Instagram + TikTok links** — currently point at the homepages | `index.html`, the footer |
-| 4 | **Page title + description** — what Google and link previews show | `index.html`, the `<head>` |
+| 1 | **Prices.** All three packages are placeholder numbers | `index.html`, the Rates section |
+| 2 | **Page title and description.** What Google and link previews show | `index.html`, the `<head>` |
 
-Everything else (the photography link, the three videos, the copy) is already
-set up and working.
+Everything else is set up and working: the three videos, the copy, the
+photography link, the Instagram and TikTok links, and the contact address.
+
+Your email (`shankari.sivanathan6@gmail.com`) is wired into three places, so if
+you ever change it, change all three: the `data-email` attribute on the form,
+the visible link below the form, and the "Email" link in the footer.
 
 ---
 

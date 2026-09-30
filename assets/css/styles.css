@@ -465,6 +465,11 @@ em { font-style: italic; }
 .form-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
 .form-note { margin: 0; font-size: .85rem; color: var(--ink-soft); }
 .form-note.ok { color: var(--accent-sub); font-weight: 600; }
+.form-direct {
+  margin: 22px 0 0; font-size: .93rem; color: var(--ink-soft); line-height: 1.8;
+}
+.form-direct a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.form-direct a:hover { text-decoration-thickness: 2px; }
 @media (max-width: 620px) { .form { grid-template-columns: 1fr; } }
 
 /* ── Footer ─────────────────────────────────────────────── */
