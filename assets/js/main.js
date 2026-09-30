@@ -206,10 +206,10 @@
       var data = new FormData(form);
       var get = function (k) { return (data.get(k) || '').toString().trim(); };
 
-      var subject = 'UGC enquiry — ' + (get('brand') || get('name') || 'new project');
+      var subject = 'UGC enquiry from ' + (get('brand') || get('name') || 'a new project');
       var body = [
         'Name: ' + get('name'),
-        'Brand: ' + (get('brand') || '—'),
+        'Brand: ' + (get('brand') || 'not given'),
         'Email: ' + get('email'),
         'Package: ' + get('package'),
         '',
@@ -222,7 +222,7 @@
         '&body=' + encodeURIComponent(body);
 
       if (note) {
-        note.textContent = "Opening your email app — if nothing happens, write to " + to;
+        note.textContent = "Opening your email app. If nothing happens, write to " + to;
         note.classList.add('ok');
       }
     });
