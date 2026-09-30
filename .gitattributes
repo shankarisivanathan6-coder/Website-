@@ -1,2 +1,5 @@
 *.mp4 binary
 *.jpg binary
+
+# The standalone build is one 19 MB line of base64; diffing it is pointless.
+standalone.html -diff -merge
