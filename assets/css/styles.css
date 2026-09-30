@@ -407,8 +407,8 @@ em { font-style: italic; }
   gap: clamp(30px, 5vw, 64px); align-items: center;
 }
 .about-photo img {
-  width: 100%; border-radius: var(--r-lg); box-shadow: var(--shadow-lg);
-  aspect-ratio: 4 / 5; object-fit: cover; object-position: center 22%;
+  width: 100%; height: auto; border-radius: var(--r-lg); box-shadow: var(--shadow-lg);
+  aspect-ratio: 4 / 5; object-fit: cover; object-position: center;
 }
 .about-copy p { color: var(--ink-soft); }
 .about-copy blockquote {
